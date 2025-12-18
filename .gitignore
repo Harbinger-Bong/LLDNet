@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and large artifacts
+data/
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Model weights (keep only the ones you explicitly want in git)
+models/*.h5
+!models/README.md
+
+# Outputs / logs
+outputs/
+*.avi
+*.mp4
+*.log
+
+# TensorBoard
+logs/
+events.out.tfevents.*
+
+# Build / dist
+build/
+dist/
+*.egg-info/
